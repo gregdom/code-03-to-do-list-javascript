@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  background-color: rgb(175, 175, 175);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container h1 {
+  padding: 16px;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 25px;
+  color: #111;
+}
+
+section {
+  width: 95vw;
+  height: auto;
+  margin: 0 auto;
+  padding: 16px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+section .entries {
+  margin: 0 0 32px 0;
+  display: flex;
+}
+
+section .entries input {
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid #D0D0D7;
+  outline: none;
+}
+
+section .entries button {
+  height: 30px;
+  padding: 0 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+section .entries button.saveBtn {
+  background-color: #82db82;
+}
+
+section .entries button.cleanBtn {
+  background-color: #db8282;
+}
+
+section button.cleanAllBtn {
+  height: 30px;
+  margin-bottom: 30px;
+  padding: 0 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #db8282;
+  float: right;
+}
+
+section .listItems .item {
+  width: 100%;
+  height: auto;
+  margin-bottom: 8px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  box-shadow: 1px 1px 3px #D0D0D7;
+  border-radius: 5px;
+}
+
+section .listItems .item p {
+  font-size: 14px;
+  color: #5e5e5e;
+  padding: 0 0 0 8px;
+}
+
+section .listItems .item .itemSpan {
+  display: flex;
+}
+
+section .listItems .item span {
+  padding: 0 5px;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+
+section .listItems .item span:nth-child(1) {
+  color: #82db82;
+}
+
+section .listItems .item span:nth-child(2) {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #db8282;
+}
+
+section .empty {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+section .empty p {
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 16px;
+  color: #5e5e5e;
+}
+
+footer {
+  width: 95vw;
+  height: auto;
+  margin: 0 auto;
+  padding: 32px 0 32px 0;
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+footer a {
+  font-size: 12px;
+  color: #777777;
+}
